@@ -37,6 +37,13 @@ bash train.sh
 bash test.sh
 ```
 
+Download pre-trained [MAE ViT-Base weights](https://pan.baidu.com/s/1M1_CPXgH3PHr7MwXP-G5VQ?pwd=wsad) and put it under `$Stage1/pretrained_models` and `$Stage2/pretrained_models`
+
+In the first training stage, Slow_ep0050.pth.tar and Fast_ep0050.pth.tar are obtained separately.
+
+Then, put Slow_ep0050.pth.tar and Fast_ep0050.pth.tar under `$Stage2/pretrained_models` for supervised fine-tuning in the second training stage.
+
+
 ### Test FLOPs, and Speed
 *Note:* The speeds reported in our paper were tested on a single RTX 4090 GPU.
 

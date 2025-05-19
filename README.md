@@ -24,7 +24,7 @@ Stage2/lib/test/evaluation/local.py  # paths about testing
 ## Train & Test
 ```
 # train
-bash train.sh
+bash train.sh (You can choose to train either the Slow Tracker or the Fast Tracker in )
 
 # test
 bash test.sh

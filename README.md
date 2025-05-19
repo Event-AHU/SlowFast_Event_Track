@@ -28,18 +28,18 @@ Stage2/lib/test/evaluation/local.py  # paths about testing
 
 ## Train & Test
 ```
-# Stage1 (You can choose the Slow Tracker or the Fast Tracker in "Stage1/experiments/sftrack/**.yaml")
+# Stage1
 bash train.sh 
 bash test.sh
 
-# Stage2 (You can choose the Slow Tracker or the Fast Tracker in "Stage2/experiments/sftrack/**.yaml")
+# Stage2
 bash train.sh 
 bash test.sh
 ```
 
 Download pre-trained [MAE ViT-Base weights](https://pan.baidu.com/s/1M1_CPXgH3PHr7MwXP-G5VQ?pwd=wsad) and put it under `$Stage1/pretrained_models` and `$Stage2/pretrained_models`
 
-In the first training stage, Slow_ep0050.pth.tar and Fast_ep0050.pth.tar are obtained separately.
+In the first training stage, Slow_ep0050.pth.tar and Fast_ep0050.pth.tar are obtained separately. (You can choose to train the Slow Tracker or the Fast Tracker in "Stage1/experiments/sftrack/**.yaml")
 
 Then, put Slow_ep0050.pth.tar and Fast_ep0050.pth.tar under `$Stage2/pretrained_models` for supervised fine-tuning in the second training stage.
 

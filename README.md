@@ -5,7 +5,25 @@ Existing tracking algorithms typically rely on low-frame-rate RGB cameras couple
 
 Install env
 ```
-conda create -n sftrack python=3.8
+conda create -n sftrack python=3.10
 conda activate sftrack
 bash install.sh
+```
+
+You can modify paths by editing these two files
+```
+Stage1/lib/train/admin/local.py  # paths about training
+Stage2/lib/train/admin/local.py  # paths about training
+
+Stage1/lib/test/evaluation/local.py  # paths about testing
+Stage2/lib/test/evaluation/local.py  # paths about testing
+
+```
+## Train & Test
+```
+# train
+bash train.sh
+
+# test
+bash test.sh
 ```

@@ -40,9 +40,9 @@ bash test.sh
 ### Test FLOPs, and Speed
 *Note:* The speeds reported in our paper were tested on a single RTX 4090 GPU.
 
-# :dvd: EventVOT Dataset 
+# :dvd: Dataset 
 
-The directory should have the following format:
+The dataset directory (using the EventVOT dataset as an example) should be organized in the following structure:
 ```Shell
 ├── EventVOT dataset
     ├── train

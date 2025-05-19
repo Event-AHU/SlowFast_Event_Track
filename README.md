@@ -41,7 +41,7 @@ bash train.sh
 bash test.sh
 ```
 
-Download pre-trained [MAE ViT-Base weights](https://pan.baidu.com/s/1M1_CPXgH3PHr7MwXP-G5VQ?pwd=wsad) and put it under `$Stage1/pretrained_models` and `$Stage2/pretrained_models`
+Download pre-trained [MAE ViT-Base weights] and put it under `$Stage1/pretrained_models` and `$Stage2/pretrained_models`
 
 In the first training stage, Slow_ep0050.pth.tar and Fast_ep0050.pth.tar are obtained separately. (You can choose to train the Slow Tracker or the Fast Tracker in "Stage1/experiments/sftrack/**.yaml")
 

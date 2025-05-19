@@ -23,11 +23,11 @@ Stage2/lib/test/evaluation/local.py  # paths about testing
 
 ## Train & Test
 ```
-# train
-bash train.sh (You can choose to train either the Slow Tracker or the Fast Tracker in )
+# Stage1
+bash train.sh for train, bash test.sh for test. (You can choose the Slow Tracker or the Fast Tracker in "Stage1/experiments/sftrack/**.yaml")
 
-# test
-bash test.sh
+# Stage2
+bash train.sh for train, bash test.sh for test. (You can choose the Slow Tracker or the Fast Tracker in "Stage1/experiments/sftrack/**.yaml")
 ```
 
 ### Test FLOPs, and Speed

@@ -5,6 +5,10 @@ Existing tracking algorithms typically rely on low-frame-rate RGB cameras couple
 
 **A Slow-Fast framework for Event Stream-based Visual Object Tracking.**
 
+<p align="center">
+  <img width="85%" src="./figures/SlowFastTrack_Framework.jpg" alt="Framework"/>
+</p>
+
 Install env
 ```
 conda create -n sftrack python=3.10

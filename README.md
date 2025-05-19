@@ -39,3 +39,24 @@ bash test.sh
 
 ### Test FLOPs, and Speed
 *Note:* The speeds reported in our paper were tested on a single RTX 4090 GPU.
+
+# :dvd: EventVOT Dataset 
+
+The directory should have the following format:
+```Shell
+├── EventVOT dataset
+    ├── train
+        ├── recording_2022-10-10_17-28-38
+            ├── img
+            ├── recording_2022-10-10_17-28-38_bin
+            ├── groundtruth.txt
+            ├── absent.txt
+        ├── ... 
+    ├── test
+        ├── recording_2022-10-10_17-28-24
+            ├── img
+            ├── recording_2022-10-10_17-28-24_bin
+            ├── groundtruth.txt
+            ├── absent.txt
+        ├── ...
+```

@@ -9,7 +9,7 @@ conda create -n sftrack python=3.10
 conda activate sftrack
 bash install.sh
 pip install flash-attn --no-build-isolation
-pip3 install torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.3.0+cu118.html
+pip install torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.3.0+cu118.html
 ```
 
 You can modify paths by editing these two files

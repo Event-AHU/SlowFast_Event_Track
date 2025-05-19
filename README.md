@@ -12,12 +12,12 @@ pip install flash-attn --no-build-isolation
 pip install torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.3.0+cu118.html
 ```
 
-You can modify paths by editing these two files
+You can modify paths by editing these files
 ```
 Stage1/lib/train/admin/local.py  # paths about training
-Stage2/lib/train/admin/local.py  # paths about training
-
 Stage1/lib/test/evaluation/local.py  # paths about testing
+
+Stage2/lib/train/admin/local.py  # paths about training
 Stage2/lib/test/evaluation/local.py  # paths about testing
 ```
 

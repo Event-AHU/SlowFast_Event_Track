@@ -54,19 +54,17 @@ Then, put Slow_ep0050.pth.tar and Fast_ep0050.pth.tar under `$Stage2/pretrained_
 
 The dataset directory (using the EventVOT dataset as an example) should be organized in the following structure:
 ```Shell
-├── EventVOT dataset
+├── EventVOT
     ├── train
         ├── recording_2022-10-10_17-28-38
             ├── img
             ├── recording_2022-10-10_17-28-38_bin
             ├── groundtruth.txt
-            ├── absent.txt
         ├── ... 
     ├── test
         ├── recording_2022-10-10_17-28-24
             ├── img
             ├── recording_2022-10-10_17-28-24_bin
             ├── groundtruth.txt
-            ├── absent.txt
         ├── ...
 ```

@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="85%" src="./figures/FirstIMG" alt="Framework"/>
+  <img width="85%" src="./figures/FirstIMG.jpg" alt="Framework"/>
 </p>
 
 # :dart: Abstract 

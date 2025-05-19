@@ -47,7 +47,6 @@ In the first training stage, Slow_ep0050.pth.tar and Fast_ep0050.pth.tar are obt
 
 Then, put Slow_ep0050.pth.tar and Fast_ep0050.pth.tar under `$Stage2/pretrained_models` for supervised fine-tuning in the second training stage.
 
-
 ### Test FLOPs, and Speed
 *Note:* The speeds reported in our paper were tested on a single RTX 4090 GPU.
 

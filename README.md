@@ -29,3 +29,6 @@ bash train.sh
 # test
 bash test.sh
 ```
+
+### Test FLOPs, and Speed
+*Note:* The speeds reported in our paper were tested on a single RTX 4090 GPU.

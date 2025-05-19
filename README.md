@@ -27,7 +27,7 @@ Stage2/lib/test/evaluation/local.py  # paths about testing
 bash train.sh 
 bash test.sh
 
-# Stage2 (You can choose the Slow Tracker or the Fast Tracker in "Stage1/experiments/sftrack/**.yaml")
+# Stage2 (You can choose the Slow Tracker or the Fast Tracker in "Stage2/experiments/sftrack/**.yaml")
 bash train.sh 
 bash test.sh
 ```

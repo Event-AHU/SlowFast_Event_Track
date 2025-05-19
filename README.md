@@ -8,7 +8,7 @@ Install env
 conda create -n sftrack python=3.10
 conda activate sftrack
 bash install.sh
-pip install flash-attn --no-build-isolation
+pip install flash-attn==2.7.3 --no-build-isolation
 pip install torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.3.0+cu118.html
 ```
 

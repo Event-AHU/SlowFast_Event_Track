@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python tracking/test.py sftrack sftrack_eventvot --dataset eventvot --threads 1 --num_gpus 1

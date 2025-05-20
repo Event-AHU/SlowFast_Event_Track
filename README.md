@@ -75,3 +75,24 @@ The dataset directory (using the EventVOT dataset as an example) should be organ
             ├── groundtruth.txt
         ├── ...
 ```
+
+
+
+
+# :two_hearts: Citation 
+
+If you have any questions about this work, please leave an issue. Also, please give us a **star** if you think this paper helps your research. 
+
+```
+@misc{wang2025SFTrack,
+      title={Towards Low-Latency Event Stream-based Visual Object Tracking: A Slow-Fast Approach}, 
+      author={Shiao Wang and Xiao Wang and Liye Jin and Bo Jiang and Lin Zhu and Lan Chen and Yonghong Tian and Bin Luo},
+      year={2025},
+      eprint={2505.12903},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.12903}, 
+}
+```
+
+

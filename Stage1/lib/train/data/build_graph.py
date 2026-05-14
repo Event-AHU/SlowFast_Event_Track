@@ -17,7 +17,7 @@ class Build_Graph(nn.Module):
         
         return data
     
-    def for_in_bbox(self, bin_event, gt_bbox, W, H, ratio, return_multi_results):
+    def for_in_bbox(self, bin_event, gt_bbox, H, W, ratio, return_multi_results):
         t_sub = bin_event.pos[:,2]
         x_sub = bin_event.pos[:,0]
         y_sub = bin_event.pos[:,1]
